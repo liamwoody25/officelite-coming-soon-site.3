@@ -368,7 +368,7 @@ header {
 
   .pricing-btn-1 {
     margin: 0;
-    width: 34%;
+    width: 33%;
   }
 
   /**** components ****/
@@ -378,9 +378,9 @@ header {
   /**** body ****/
 
   .container {
-    margin-left: 32px;
-    margin-right: 20px;
-    width: 92%;
+    margin-left: 39px;
+    margin-right: 39px;
+    width: 90%;
   }
 
   body {
@@ -412,6 +412,7 @@ header {
     flex-wrap: wrap;
     flex-direction: row-reverse;
     justify-content: space-between;
+    margin-bottom: 533px;
   }
 
   .hero-img {
@@ -440,9 +441,13 @@ header {
 
   .pricing-section {
     margin-top: 80px;
+    height: 986px;
+    
   }
 
   .pricing-cards {
+    position: absolute;
+    bottom: 125px;
     display: flex;
     flex-direction: column;
   }
@@ -451,7 +456,7 @@ header {
 
   .tier-card {
     padding: 48px;
-    width: 71%;
+    width: 73%;
   }
 
   .card-body-content {
@@ -480,7 +485,10 @@ header {
   /**** tier-card-2 ****/
 
   .tier-card-1 {
-    width: 71%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 74%;
     padding: 48px;
     background-image: url('/public/assets/home/bg-pattern-pricing.svg');
     background-position-x: -312px;
@@ -507,7 +515,57 @@ header {
     margin-bottom: 16px;
   }
 
+  /**** tier-card-2 ****/
 
 
+  /**** tier-card-3 ****/
+
+  .tier-card-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 74%;
+    padding: 48px;
+  }
+
+  .card-body-content-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card-plan-text-2 {
+    text-align: left;
+  }
+
+  .card-plan-text-2 > h1 {
+    text-align: left;
+  }
+
+  .card-plan-text-2 > p {
+    margin-bottom: 24px;
+  }
+
+  /**** tier-card-3 ****/
+
+
+  /**** countdown-container ****/
+
+  .countdown-container {
+    margin-top: 96px;
+    background-image: url('/public/assets/home/bg-pattern-footer.svg');
+    width: 60%;
+    background-size: 550px;
+  }
+
+  .countdown-timer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .timer-card {
+    padding: 16px 12px;
+  }
    /**** pricing-section ****/
 }
