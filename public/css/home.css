@@ -60,6 +60,19 @@ p {
   cursor: pointer;
 }
 
+.pricing-btn-2 {
+   padding: 12px 40px;
+  border: none;
+  border-radius: 999px;
+  background: #E4EAFF;
+  width: 60%;
+  color: #5175FF;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 48px;
+  cursor: pointer;
+}
+
 .pricing-btn-1 {
   padding: 12px 40px;
   width: 61%;
@@ -600,6 +613,14 @@ header {
     width: 56%;
   }
 
+  .pricing-btn-2 {
+    width: 80%;
+    margin: 0;
+  }
+
+  .countdown-btn {
+    width: 90px;
+  }
 
   /**** components ****/
 
@@ -636,12 +657,19 @@ header {
   /**** hero section ****/
 
   .hero-section {
+    width: 97%;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 458px;
+    background-image: url('/public/assets/home/illustration-charts.svg');
+    background-repeat: no-repeat;
+    background-size: 475px;
+    background-position-x: right;
+    flex-direction: row;
   }
 
   .hero-img {
-    width: 38%;
+    width: 45%;
   }
 
   .hero-text-content {
@@ -657,11 +685,14 @@ header {
 
 .pricing-section {
   width: 1440px;
+  background-image: url('/public/assets/home/bg-pattern-footer.svg');
+  height: 728px;
 }
 
 .pricing-cards {
   position: absolute;
-  bottom: 540px;
+  bottom: 689px;
+  height: 604px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -720,6 +751,7 @@ header {
 .card-plan-text-1 > h1 {
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 8px;
 }
 /**** tier-card-2 ****/
 
@@ -745,6 +777,7 @@ header {
 .card-plan-text-2 > h1 {
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 8px;
 }
 
 /**** tier-card-3 ****/
@@ -753,7 +786,32 @@ header {
 
 /**** countdown-container ****/
 
+.countdown-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  margin-bottom: 121px;
+}
 
+.countdown-container {
+  display: flex;
+  flex-direction: row;
+  width: 62%;
+  margin-top: 80px;
+}
+
+
+.countdown-timer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.timer-card {
+  width: 100px;
+}
 
 /**** pricing section ****/
 
