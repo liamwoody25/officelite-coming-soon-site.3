@@ -423,9 +423,13 @@ header {
   .hero-section {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
     margin-bottom: 533px;
+    background-image: url('/public/assets/home/illustration-charts.svg'); 
+    background-repeat: no-repeat;
+    background-size: 322px;
+    background-position-x: right;
   }
 
   .hero-img {
@@ -460,9 +464,8 @@ header {
 
   .pricing-cards {
     position: absolute;
-    bottom: 125px;
+    bottom: -91px;
     display: flex;
-    flex-direction: column;
   }
 
   /**** tier-card-1 ****/
