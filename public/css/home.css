@@ -571,3 +571,190 @@ header {
 }
 
 /**** media queries tablet ****/
+
+@media screen and (min-width:1440px) {
+  
+  /**** typeography ****/
+
+  h1 {
+    font-size: 56px;
+    line-height: 67.2px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  /**** typeography ****/
+
+
+
+  /**** components ****/
+
+  .pricing-btn {
+    width: 56%;
+  }
+
+  .pricing-btn-1 {
+    width: 56%;
+  }
+
+
+  /**** components ****/
+
+
+
+  /**** body ****/
+
+  .container {
+    margin-left: 125px;
+    margin-right: 125px;
+    width: 83%;
+  }
+
+  body {
+    background-position-x: 826px;
+    background-size: 983px;
+    background-position-y: -346px;
+  }
+
+  /**** body ****/
+
+
+
+  /**** header section ****/
+
+  header {
+    margin-top: 80px;
+  }
+
+  /**** header section ****/
+
+
+
+  /**** hero section ****/
+
+  .hero-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hero-img {
+    width: 38%;
+  }
+
+  .hero-text-content {
+    display: flex;
+    width: 45%;
+  }
+  
+/**** hero section ****/
+
+
+
+/**** pricing section ****/
+
+.pricing-section {
+  width: 1440px;
+}
+
+.pricing-cards {
+  position: absolute;
+  bottom: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 32px;
+}
+
+/**** tier-card-1 ****/
+
+.tier-card {
+  width: 309px;
+}
+
+.card-body-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card-plan-text {
+  text-align: center;
+}
+
+.card-plan-text > h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.card-text-content {
+  text-align: center;
+}
+
+/**** tier-card-1 ****/
+
+
+
+/**** tier-card-2 ****/
+
+.tier-card-1 {
+  width: 309px;
+  background-image: none;
+}
+
+.card-body-content-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card-plan-text-1 {
+  text-align: center;
+}
+
+.card-plan-text-1 > h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+/**** tier-card-2 ****/
+
+
+
+/**** tier-card-3 ****/
+
+.tier-card-2 {
+  width: 309px;
+}
+
+.card-body-content-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card-plan-text-2 {
+  text-align: center;
+}
+
+.card-plan-text-2 > h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/**** tier-card-3 ****/
+
+
+
+/**** countdown-container ****/
+
+
+
+/**** pricing section ****/
+
+}
