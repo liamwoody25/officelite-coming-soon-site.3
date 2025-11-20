@@ -433,7 +433,7 @@ header {
   }
 
   .hero-img {
-    width: 40%;
+    display: none;
   }
 
   .hero-text-content {
@@ -668,7 +668,7 @@ header {
     width: 97%;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 458px;
+    margin-bottom: 673px;
     background-image: url('/public/assets/home/illustration-charts.svg');
     background-repeat: no-repeat;
     background-size: 475px;
@@ -699,7 +699,7 @@ header {
 
 .pricing-cards {
   position: absolute;
-  bottom: 689px;
+  bottom: 403px;
   height: 604px;
   display: flex;
   flex-wrap: wrap;
