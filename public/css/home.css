@@ -464,7 +464,7 @@ header {
 
   .pricing-cards {
     position: absolute;
-    bottom: -91px;
+    bottom: 96px;
     display: flex;
   }
 
@@ -566,6 +566,11 @@ header {
 
 
   /**** countdown-container ****/
+
+  .countdown-section {
+    display: flex;
+    justify-content: center;
+  }
 
   .countdown-container {
     margin-top: 96px;
