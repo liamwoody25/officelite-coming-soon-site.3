@@ -319,6 +319,12 @@ header {
 
 /**** countdown-container ****/
 
+.countdown-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .countdown-container {
  margin-top: 40px;
  display: flex;
@@ -385,7 +391,7 @@ header {
   }
 
   .countdown-btn {
-    width: 96%;
+    width: 23%;
   }
 
   /**** components ****/
@@ -471,6 +477,7 @@ header {
     bottom: 96px;
     display: flex;
   }
+
 
   /**** tier-card-1 ****/
 
@@ -572,7 +579,7 @@ header {
   /**** countdown-container ****/
 
   .countdown-section {
-    width: 23%;
+    width: 96%;
     display: flex;
     justify-content: center;
     flex-direction: column;

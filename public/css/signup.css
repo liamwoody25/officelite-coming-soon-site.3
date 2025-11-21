@@ -1,0 +1,64 @@
+/**** typeography ****/
+
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  color: #747B95;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+
+/**** typeography ****/
+
+
+/**** components ****/
+
+span {
+  color:#5175FF;
+}
+
+
+/**** body ****/
+
+.container {
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 93%;
+}
+
+body {
+  margin: 0;
+  background-color: #FAFAFA;
+}
+
+/**** body ****/
+
+
+
+/**** header section ****/
+
+header {
+  margin: 32px 0px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/**** header section ****/
+
+
+
+/**** left content section ****/
+
+.countdown-container {
+  
+}
