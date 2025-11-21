@@ -45,6 +45,7 @@ p {
   line-height: 25.6px;
   cursor: pointer;
   box-shadow: 0 25px 25px -10px #3f5bc240;
+  text-decoration: none;
 }
 
 .pricing-btn {

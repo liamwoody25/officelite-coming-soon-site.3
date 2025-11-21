@@ -159,15 +159,22 @@ header {
   flex-wrap: wrap;
   position: absolute;
   background-color: #25293A;
-  height: 355px;
+  height: 316px;
+  margin-top: 252px;
+  background-image: url('/public/assets/sign-up/bg-pattern-side.svg');
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 550px;
 }
 
 .form-container {
   width: 75%;
+  position: relative;
   padding: 40px 20px;
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 50px 50px -25px #4b5c9a29;
+  bottom: 242px;
   
 }
 
