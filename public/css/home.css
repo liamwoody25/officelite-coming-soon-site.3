@@ -384,6 +384,10 @@ header {
     width: 33%;
   }
 
+  .countdown-btn {
+    width: 96%;
+  }
+
   /**** components ****/
 
 
@@ -568,8 +572,10 @@ header {
   /**** countdown-container ****/
 
   .countdown-section {
+    width: 23%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 
   .countdown-container {
@@ -668,7 +674,7 @@ header {
     width: 97%;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 673px;
+    margin-bottom: 415px;
     background-image: url('/public/assets/home/illustration-charts.svg');
     background-repeat: no-repeat;
     background-size: 475px;
@@ -682,7 +688,7 @@ header {
 
   .hero-text-content {
     display: flex;
-    width: 45%;
+    width: 50%;
   }
   
 /**** hero section ****/
@@ -695,12 +701,15 @@ header {
   width: 1440px;
   background-image: url('/public/assets/home/bg-pattern-footer.svg');
   height: 728px;
+  background-position-x: -164px;
+  background-position-y: 38px;
+  background-size: 876px;
 }
 
 .pricing-cards {
   position: absolute;
   bottom: 403px;
-  height: 604px;
+  height: 641px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -800,13 +809,15 @@ header {
   flex-wrap: wrap;
   margin-top: 80px;
   margin-bottom: 121px;
+  width: 87%;
 }
 
 .countdown-container {
   display: flex;
   flex-direction: row;
-  width: 62%;
+  width: 50%;
   margin-top: 80px;
+  justify-content: flex-start;
 }
 
 
