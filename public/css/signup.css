@@ -22,8 +22,41 @@ p {
 
 /**** components ****/
 
+label {
+  padding-left: 16px;
+  color: #747B95;
+  opacity: 0.5;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #747B95;
+  opacity: 0.5;
+  margin-bottom: 24px;
+  width: 95%;
+}
+
 span {
   color:#5175FF;
+}
+
+.package-title {
+  color: #333950;
+  font-size: 16px;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.toggle-btn {
+  display: flex;
+  border: none;
+  background-color: transparent;
+}
+
+.arrow-down-icon {
+  width: 11px;
+  height: 5.5px;
 }
 
 
@@ -60,5 +93,86 @@ header {
 /**** left content section ****/
 
 .countdown-container {
-  
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
+
+.countdown-container > p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+  color: #333950;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.countdown-timer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.timer-card {
+  width: 14%;
+  padding: 16px 12px;
+  background-color: #E4EAFF;
+  border-radius: 8px;
+}
+
+.timer-card > h1 {
+  margin-top:4px;
+  margin-bottom: 0px;
+  color: #5175FF;
+}
+
+.timer-card > p {
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333950;
+  margin: 0px;
+}
+
+/**** left content section ****/
+
+
+
+
+/**** form section ****/
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form-container {
+  width: 75%;
+  padding: 20px 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 50px 50px -25px #4b5c9a29;
+}
+
+.package-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.package-info  {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.package-info > span {
+  font-size: 16px;
+  color: #333950;
+  opacity: 0.5;
+  font-size: 700;
+}
+
