@@ -657,7 +657,7 @@ header {
   }
 
   body {
-    background-image: url('./public/assets/home/bg-pattern-header.svg');
+    background-image: url('/public/assets/home/bg-pattern-header.svg');
     background-position-x: 826px;
     background-size: 983px;
     background-position-y: -346px;
