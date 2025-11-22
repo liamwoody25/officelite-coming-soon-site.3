@@ -641,7 +641,7 @@ header {
   }
 
   .countdown-btn {
-    width: 90px;
+    width: 14%;
   }
 
   /**** components ****/
@@ -815,7 +815,6 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 80px;
   margin-bottom: 121px;
   width: 87%;
 }
@@ -824,7 +823,6 @@ header {
   display: flex;
   flex-direction: row;
   width: 50%;
-  margin-top: 80px;
   justify-content: flex-start;
 }
 
