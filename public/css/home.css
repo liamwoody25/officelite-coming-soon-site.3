@@ -707,7 +707,7 @@ header {
 
 .pricing-section {
   width: 1440px;
-  background-image: url('./public/assets/home/bg-pattern-footer.svg');
+  background-image: url('/public/assets/home/bg-pattern-footer.svg');
   height: 728px;
   background-position-x: -164px;
   background-position-y: 38px;
