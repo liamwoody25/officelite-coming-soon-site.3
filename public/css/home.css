@@ -657,6 +657,7 @@ header {
   }
 
   body {
+    background-image: url('./public/assets/home/bg-pattern-header.svg');
     background-position-x: 826px;
     background-size: 983px;
     background-position-y: -346px;
@@ -683,9 +684,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 415px;
-    background-image: url('./public/assets/home/illustration-charts.svg');
     background-repeat: no-repeat;
-    background-size: 475px;
+    background-size: 523px;
     background-position-x: right;
     flex-direction: row;
   }
