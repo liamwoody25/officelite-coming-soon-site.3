@@ -161,7 +161,7 @@ header {
   background-color: #25293A;
   height: 316px;
   margin-top: 252px;
-  background-image: url('/public/assets/sign-up/bg-pattern-side.svg');
+  background-image: url('./public/assets/sign-up/bg-pattern-side.svg');
   background-position-x: center;
   background-position-y: center;
   background-size: 550px;

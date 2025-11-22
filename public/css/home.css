@@ -683,7 +683,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 415px;
-    background-image: url('/public/assets/home/illustration-charts.svg');
+    background-image: url('./public/assets/home/illustration-charts.svg');
     background-repeat: no-repeat;
     background-size: 475px;
     background-position-x: right;
@@ -707,7 +707,7 @@ header {
 
 .pricing-section {
   width: 1440px;
-  background-image: url('/public/assets/home/bg-pattern-footer.svg');
+  background-image: url('./public/assets/home/bg-pattern-footer.svg');
   height: 728px;
   background-position-x: -164px;
   background-position-y: 38px;
