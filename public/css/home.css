@@ -53,12 +53,13 @@ p {
   border: none;
   border-radius: 999px;
   background: #E4EAFF;
-  width: 60%;
+  width: 31%;
   color: #5175FF;
   font-size: 16px;
   font-weight: 700;
   margin-top: 48px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .pricing-btn-2 {
@@ -66,17 +67,18 @@ p {
   border: none;
   border-radius: 999px;
   background: #E4EAFF;
-  width: 60%;
+  width: 31%;
   color: #5175FF;
   font-size: 16px;
   font-weight: 700;
   margin-top: 48px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .pricing-btn-1 {
   padding: 12px 40px;
-  width: 61%;
+  width: 33%;
   border: none;
   border-radius: 999px;
   background-color: #fff;
@@ -85,6 +87,7 @@ p {
   font-weight: 700;
   cursor: pointer;
   margin-top: 48px;
+  text-decoration: none;
 }
 
 .countdown-btn {
@@ -97,6 +100,7 @@ p {
   color: #fff;
   line-height: 25.6px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 span {
@@ -392,7 +396,7 @@ header {
   }
 
   .countdown-btn {
-    width: 23%;
+    width: 13%;
   }
 
   /**** components ****/
@@ -583,13 +587,15 @@ header {
     width: 96%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
   }
 
   .countdown-container {
+    display: flex;
+    justify-content: center;
     margin-top: 96px;
     background-image: url('/public/assets/home/bg-pattern-footer.svg');
-    width: 60%;
+    background-repeat: no-repeat;
+    width: 93%;
     background-size: 550px;
   }
 
