@@ -202,3 +202,203 @@ header {
   font-size: 700;
 }
 
+/**** medie queries tablet ****/
+
+@media screen and (min-width:768px) {
+
+  h1 {
+    margin-bottom: 0px;
+  }
+  
+  
+  /**** body ****/
+
+  .container {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 90%;
+  }
+
+  /**** body ****/
+
+
+
+
+  /**** header section ****/
+
+  header {
+    display: flex;
+    justify-content: left;
+    margin-top: 64px;
+  }
+
+  /**** header section ****/
+
+
+
+
+  /**** left-content section ****/
+
+  .left-content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .left-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 76%;
+  }
+
+  .countdown-container {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .countdown-timer {
+    display: flex;
+    width: 100%;
+  }
+
+  .timer-card {
+    width: 12%;
+  }
+
+  /**** left-content section ****/
+
+
+
+  /**** form section ****/
+
+  .form-section {
+    margin-top: 141px;
+    height: 473px;
+    background-repeat: no-repeat;
+   
+  }
+
+  .form-container {
+     position: relative;
+    bottom: 126px;
+    padding: 40px;
+    width: 40%;
+  }
+
+
+}
+
+/**** medie queries tablet ****/
+
+
+
+
+/**** medie queries desktop ****/
+
+@media screen and (min-width:1440px) {
+
+  /**** typeography ****/
+
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+  }
+  
+  /**** body ****/
+
+  .container {
+    margin-left: 108px;
+    margin-right: 108px;
+    width: 85%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+
+  /**** body ****/
+
+
+  /**** header section ****/
+
+  header {
+    margin-top: 80px;
+  }
+
+  /**** header section ****/
+
+
+  /**** left-content section ****/
+
+  .left-content-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .left-content {
+    width: 43%;
+    text-align: left;
+  }
+
+  .left-content > p {
+    text-align: left;
+  }
+
+  .left-content h1 {
+    text-align: left;
+  }
+
+  /**** countdown section ****/
+
+  .countdown-container {
+   display: flex;
+   justify-content: left;
+  }
+
+  .countdown-timer {
+    display: flex;
+    justify-content: left;
+  }
+
+  .timer-card {
+    width: 7%;
+  }
+
+  /*** countdown section ***/
+
+
+  /**** form section ****/
+
+  .form-section {
+    display: flex;
+    flex-direction: row;
+    height: 1024px;
+    width: 420px;
+    margin: 0;
+     background-color: #25293A;
+    background-image: url('/public/assets/sign-up/bg-pattern-side.svg');
+    background-size: 550px;
+   
+  }
+
+  .form-container {
+    position: absolute;
+    width: 80%;
+    right: 148px;
+    bottom: 335px;
+    padding: 40px;
+  }
+
+
+  /**** left-content section ****/
+}
+
