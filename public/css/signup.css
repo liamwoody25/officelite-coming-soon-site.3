@@ -36,6 +36,11 @@ input {
   margin-bottom: 24px;
   width: 95%;
   padding-left: 15px;
+  cursor: pointer;
+}
+
+input:focus {
+  border-bottom: 1px solid #5175FF;
 }
 
 
@@ -51,7 +56,7 @@ span {
   opacity: 1;
 }
 
-.toggle-btn {
+.package-toggle {
   display: flex;
   border: none;
   background-color: transparent;
@@ -72,7 +77,11 @@ span {
   font-weight: 700;
   color: #fff;
   line-height: 25.6px;
+}
 
+.package-menu {
+  display: none;
+  
 }
 
 /**** body ****/
@@ -186,6 +195,10 @@ header {
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
+  border-bottom: 1px solid #747B95;
+  padding: 0px 0px 24px;
+  margin: 0px 0px 24px;
+  opacity: 0.5;
 }
 
 .package-info  {
@@ -195,11 +208,40 @@ header {
   gap: 10px;
 }
 
+.package-text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.error-message {
+  display: none;
+  font-size: 12px;
+}
+
+.sub-title {
+  color: #333950;
+  opacity: 0.5;
+  margin-bottom: 5px;
+}
+
+.package-sub {
+  display: flex;
+  gap: 10px;
+}
+
 .package-info > span {
   font-size: 16px;
   color: #333950;
   opacity: 0.5;
   font-size: 700;
+}
+
+.message {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /**** medie queries tablet ****/
@@ -288,6 +330,16 @@ header {
     bottom: 126px;
     padding: 40px;
     width: 40%;
+  }
+
+  .package-text {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .package-sub {
+    display: flex;
+    flex-wrap: wrap;
   }
 
 
